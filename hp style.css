@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #10a4e9;
+    color: #eee;
+    font-family: sans-serif;
+}
+
+.hero {
+    display: block;
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-top: 300px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+article {
+font-size: 44;
+font-weight: 200;
+width: 250px;
+height: 200px;
+border: 1px solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#current {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+#wrapper {
+    width: calc(100vw-200px);
+    margin-left: 200px;
+}
+
+nav {
+    position: fixed;
+    width:200px;
+    text-align: center;
+    background-color: #55e;
+}
+
+nav .active {
+    background-color: #eee;
+    color: #111;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    border: 1px solid white;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.line-dec {
+    max-width: 1250px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+u1 {
+    justify-content: left;
+}
