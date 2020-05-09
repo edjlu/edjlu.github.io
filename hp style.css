@@ -42,9 +42,15 @@ a {
     text-decoration: none;
 }
 
-section {
+section.gallery {
     display: flex;
+    width: 1250px;
+    flex-wrap: wrap;
+}
+
+section.features {
     width: 600px;
+    display: flex;
     flex-wrap: wrap;
 }
 
