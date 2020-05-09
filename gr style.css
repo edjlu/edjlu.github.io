@@ -15,10 +15,11 @@ body {
     height: 500px;
     padding-bottom: 20px;
 }
-
+h1 {
+    text-align: center;
+}
 h2 {
     padding-top: 300px;
-    
 }
 
 h3 {
@@ -119,4 +120,5 @@ nav .active {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    width: 850px;
 }
