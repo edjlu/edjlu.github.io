@@ -5,50 +5,31 @@
 }
 
 body {
-    background-color: rgb(111, 13, 175);
+    background-color: rgb(177, 80, 241);
     color: #eee;
     font-family: sans-serif;
 }
 
+
 .hero {
     display: block;
-    height: 500px;
+    height: 650px;
+    width: 1250px;
     padding-bottom: 20px;
-    padding-left: 85px;
-
 }
+
 h1 {
     text-align: center;
 }
 h2 {
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 85px;
 }
 
 h3 {
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
-.header {    
-    position: relative;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    background-image: url("vgmash.jpg");
-    border-top: 1px solid rgb(229, 229, 229);
-}
-
-#head {
-    color: rgb(245, 69, 69);
-}
-
-#subhead {
-    color: black;
-}
 article {
 font-size: 44;
 font-weight: 200;
@@ -140,9 +121,9 @@ nav .active {
     margin: 20px 0;
 }
 
-.flex-container {
-    margin-top: 20px;
+.infobox {
     display: flex;
     justify-content: space-around;
     width: 1250px;
+    background-color: gray;
 }
