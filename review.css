@@ -127,11 +127,14 @@ nav .active {
 
 .infobox {
     display: flex;
-    flex: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 1250px;
     background-color: gray;
-    height: 200px;
+}
+
+.infobox > .info {
+    width: 30%;
+    padding: 0 20px;
 }
 
 .head {
@@ -154,4 +157,5 @@ p {
     width:1250px;
     justify-content: left;
     margin-top: 10px;
+    line-height: 1.5;
 }
