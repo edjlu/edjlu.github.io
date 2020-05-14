@@ -9,12 +9,37 @@ body {
     color: #eee;
     font-family: sans-serif;
 }
+#intext {
+    float: right;
+    width: 250px;
+    height: 250px;
+    padding: 10px 30px 0 15px;
+}
+
+#intextleft {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 10px 30px 0 10px;
+}
+
+div.polaroid {
+    width: 98%;
+    background-color: #A51F02;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.caption {
+    text-align: center;
+    padding: 10px 20px;
+}
 
 
 .hero {
     display: block;
     height: 650px;
-    width: 1250px;
+    width: 1297px;
     padding-bottom: 20px;
 }
 
@@ -128,7 +153,7 @@ nav .active {
 .infobox {
     display: flex;
     justify-content: space-evenly;
-    width: 1250px;
+    width: 1297px;
     background-color: gray;
 }
 
