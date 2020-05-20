@@ -5,15 +5,19 @@
 }
 
 body {
-    background-color: rgb(177, 80, 241);
+    background-color: rgb(111, 13, 175);
     color: #eee;
     font-family: sans-serif;
+}
+
+iframe {
+    padding: 10px 0 10px 0;
 }
 #intext {
     float: right;
     width: 250px;
-    height: 250px;
-    padding: 10px 30px 0 15px;
+    height: 300px;
+    padding: 10px 30px 15px 15px;
 }
 
 #intextleft {
@@ -28,6 +32,32 @@ div.polaroid {
     background-color: #A51F02;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.hzdpolaroid {
+    width: 98%;
+    background-color: #3639eb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.uc4polaroid{
+    width: 98%;
+    background-color: #1a1816;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.uc4polaroidsmall{
+    width: 800px;
+    height: 493px;
+    background-color: #1a1816;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 25px 250px;
+    
 }
 
 div.caption {
@@ -40,7 +70,6 @@ div.caption {
     display: block;
     height: 650px;
     width: 1297px;
-    padding-bottom: 20px;
 }
 
 h1 {
