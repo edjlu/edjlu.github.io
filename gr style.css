@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(111, 13, 175);
+    background-color: #43035F;
     color: #eee;
     font-family: sans-serif;
 }
@@ -21,34 +21,30 @@ h1 {
     text-align: center;
 }
 h2 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 85px;
+    padding: 30px 0 20px 20px;
 }
 
 h3 {
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .header {    
-    position: relative;
-    min-width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    background-image: url("vgmash.jpg");
-    border-top: 1px solid rgb(229, 229, 229);
 }
 
 #head {
-    color: rgb(245, 69, 69);
+    color: #10a4e9;
+    align-items: center;
 }
 
 #subhead {
-    color: black;
+    color: #ccccb3;
+    width: 90%;
+    justify-content: wrap;
 }
+
 article {
 font-size: 44;
 font-weight: 200;

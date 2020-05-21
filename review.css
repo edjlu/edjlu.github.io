@@ -5,10 +5,16 @@
 }
 
 body {
-    background-color: rgb(111, 13, 175);
+    background-color: #43035F;
     color: #eee;
     font-family: sans-serif;
 }
+
+ul {
+    margin: 5px 0 0 15px;
+    line-height: 2.5;
+}
+/* PICTURES */ 
 
 iframe {
     padding: 10px 0 10px 0;
@@ -29,7 +35,7 @@ iframe {
 
 div.polaroid {
     width: 98%;
-    background-color: #A51F02;
+    background-color: #801404;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     margin-top: 25px;
@@ -54,10 +60,32 @@ div.uc4polaroid{
 div.uc4polaroidsmall{
     width: 800px;
     height: 493px;
-    background-color: #1a1816;
+    background-color:  #1a1816;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 25px 0px 25px 250px;
-    
+}
+
+div.hzdpolaroidsmall{
+    width: 800px;
+    height: 493px;
+    background-color:  #3639eb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 25px 250px;
+}
+
+div.rdr2polaroidsmall{
+    width: 800px;
+    height: 493px;
+    background-color:  #ff3333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 25px 250px;
+}
+div.rdr2polaroid{
+    width: 98%;
+    background-color:  #ff3333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 div.caption {
@@ -65,11 +93,12 @@ div.caption {
     padding: 10px 20px;
 }
 
+/* END */
 
 .hero {
     display: block;
     height: 650px;
-    width: 1297px;
+    width: 1319px;
 }
 
 h1 {
@@ -88,18 +117,10 @@ h3 {
     margin-top: 30px;
 }
 
-article {
-font-size: 44;
-font-weight: 200;
-width: 250px;
-height: 200px;
-border: 1px solid black;
-}
 
 a {
     color: white;
     text-decoration: none;
-
 }
 
 #current {
@@ -182,7 +203,7 @@ nav .active {
 .infobox {
     display: flex;
     justify-content: space-evenly;
-    width: 1297px;
+    width: 1319px;
     background-color: gray;
 }
 
