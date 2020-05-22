@@ -17,7 +17,7 @@ ul {
 /* PICTURES */ 
 
 iframe {
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
 }
 #intext {
     float: right;
@@ -55,6 +55,22 @@ div.uc4polaroid{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     margin-top: 25px;
+}
+
+div.hkpolaroid{
+    width: 98%;
+    background-color: #0c0042;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.hkpolaroidsmall{
+    width: 800px;
+    height: 493px;
+    background-color: #0c0042;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 25px 250px;
 }
 
 div.uc4polaroidsmall{
