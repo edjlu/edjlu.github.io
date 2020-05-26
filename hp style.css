@@ -131,6 +131,44 @@ nav .active {
 u1 {
     justify-content: left;
 }
+/* PHONE OPTIMIZING */
+
+@media only screen and (max-width: 700px) {
+    .gallery, .features {
+      width: 49.99999%;
+      height: 55%;
+      margin: 16px 0 16px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .gallery, .features {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+@media screen and (max-width: 1020px) {
+    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
+    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery{
+      float: none;
+      width: auto;
+    }
+    p {font-size: 2em; }
+    nav {
+        position: relative;
+        width: 10%;
+        text-align: left;
+        background-color: #110e11;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* END */
 
 div.modal {
     display: none;

@@ -52,6 +52,22 @@ width: 250px;
 height: 200px;
 border: 1px solid black;
 }
+/* PHONE OPTIMIZING */
+
+@media screen and (max-width: 1020px) {
+    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
+    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery{
+      float: none;
+      width: auto;
+    }
+    p {font-size: 2em; }
+    nav {
+        position: relative;
+        width: 10%;
+        text-align: left;
+        background-color: #110e11;
+    }
+  }
 
 a {
     color: white;

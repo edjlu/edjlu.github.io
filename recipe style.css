@@ -3,6 +3,22 @@
     padding: 0;
     margin: 0;
 }
+/* PHONE OPTIMIZING */
+
+@media screen and (max-width: 1020px) {
+    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
+    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery{
+      float: none;
+      width: auto;
+    }
+    p {font-size: 2em; }
+    nav {
+        position: relative;
+        width: 10%;
+        text-align: center;
+        background-color: #110e11;
+    }
+  }
 
 body {
     background-color: #0d4201;

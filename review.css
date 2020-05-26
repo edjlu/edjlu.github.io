@@ -14,6 +14,23 @@ ul {
     margin: 5px 0 0 15px;
     line-height: 2.5;
 }
+/* PHONE OPTIMIZING */
+
+@media screen and (max-width: 1020px) {
+    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
+    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery, iframe, #intext, .hzdpolaroid, .uc4polaroid, .hkpolaroid, .rdr2polaroid, .hkpolaroidsmall, .rdr2polaroidsmall, .uc4polaroidsmall, .hzdpolaroidsmall {
+      float: none;
+      width: auto;
+    }
+    p {font-size: 2em; }
+    nav {
+        position: relative;
+        width: 10%;
+        text-align: left;
+        background-color: #110e11;
+    }
+  }
+
 /* PICTURES */ 
 
 iframe {
@@ -65,6 +82,14 @@ div.hkpolaroid{
     margin-top: 25px;
 }
 
+div.rdr2polaroid{
+    width: 98%;
+    background-color:  #ff3333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 div.hkpolaroidsmall{
     width: 800px;
     height: 493px;
@@ -96,13 +121,7 @@ div.rdr2polaroidsmall{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 25px 0px 25px 250px;
 }
-div.rdr2polaroid{
-    width: 98%;
-    background-color:  #ff3333;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
+
 
 div.caption {
     text-align: center;

@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1020px) {
     .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
-    .middle, .text, article, .modal{
+    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery{
       float: none;
       width: auto;
     }
@@ -15,7 +15,7 @@
     nav {
         position: relative;
         width: 10%;
-        text-align: center;
+        text-align: left;
         background-color: #110e11;
     }
   }
@@ -80,6 +80,20 @@ div.polaroid {
     margin-top: 10px;
 }
 
+#friedrice {
+    width:25%;
+    height:50%;
+    background-color: #111;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+ul, ol {
+    margin-left: 15px;
+    line-height: 1.5em;
+    flex-wrap: wrap;
+}
 p {
     width:1250px;
     justify-content: left;
