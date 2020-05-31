@@ -7,7 +7,7 @@
 body {
     background-color: #43035F;
     color: #eee;
-    font-family: sans-serif;
+    font-family: Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -16,20 +16,15 @@ ul {
 }
 /* PHONE OPTIMIZING */
 
-@media screen and (max-width: 1020px) {
-    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
-    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery, iframe, #intext, .hzdpolaroid, .uc4polaroid, .hkpolaroid, .rdr2polaroid, .hkpolaroidsmall, .rdr2polaroidsmall, .uc4polaroidsmall, .hzdpolaroidsmall, .sc2polaroid {
-      float: none;
-      width: auto;
-    }
-    p {font-size: 2em; }
+@media only screen and (max-width: 650px) {
     nav {
-        position: relative;
-        width: 10%;
-        text-align: left;
-        background-color: #110e11;
+        display: none;
     }
-  }
+    #wrapper {
+        margin-left: 0;
+        width: 100vw;
+    }
+}
 
 /* PICTURES */ 
 

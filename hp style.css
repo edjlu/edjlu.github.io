@@ -5,9 +5,9 @@
 }
 
 body {
-    background-color: #10a4e9;
+    background-color: #064789;
     color: #eee;
-    font-family: sans-serif;
+    font-family: Geneva, Tahoma, sans-serif;
 }
 
 .hero {
@@ -50,19 +50,17 @@ a {
 
 section.gallery {
     display: flex;
-    width: 1250px;
     flex-wrap: wrap;
 }
 
 section.features {
-    width: 1250px;
-    height: 200px;
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 #wrapper {
-    width: calc(100vw-200px);
+    width: calc(100vw - 200px);
     margin-left: 200px;
 }
 
@@ -78,13 +76,12 @@ nav .active {
     color: #111;
 }
 
-
 .container {
     position: relative;
-    width: 100%;
+    width: 600px;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex: 50%;
     border: 1px solid white;
 }
 
@@ -131,43 +128,17 @@ nav .active {
 u1 {
     justify-content: left;
 }
-/* PHONE OPTIMIZING */
+/* PHONE OPTIMIZATION */
 
-@media only screen and (max-width: 700px) {
-    .gallery, .features, .container {
-      width: 49.99999%;
-      margin: 16px 0 16px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .gallery, .features, .container {
-      width: 100%;
-    }
-  }
-
-@media screen and (max-width: 1020px) {
-    .container, .header, body, #footer, h4, .polaroid, .caption, h1, .features, .image, #sizing,
-    .middle, .text, article, .modal, .line-dec, .wrapper, .hero, .gallery{
-      float: none;
-      width: auto;
-    }
-    p {font-size: 2em;
-    }
+@media only screen and (max-width: 650px) {
     nav {
-        position: relative;
-        width: 10%;
-        text-align: left;
-        background-color: #110e11;
+        display: none;
     }
-  }
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* END */
+    #wrapper {
+        margin-left: 0;
+        width: 100vw;
+    }
+}
 
 div.modal {
     display: none;
@@ -187,3 +158,5 @@ div.modal > img {
     margin: 0 auto;
     display: block;
 }
+
+
