@@ -172,15 +172,17 @@ section {
 }
 
 #wrapper {
-    width: calc(100vw-200px);
+    width: calc(100vw - 200px);
     margin-left: 200px;
+    max-width: 1250px;
 }
 
 nav {
     position: fixed;
-    width:200px;
+    width: 190px;
     text-align: center;
     background-color: #110e11;
+    line-height: 50px;
 }
 
 nav .active {

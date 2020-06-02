@@ -18,7 +18,10 @@
 body {
     background-color: #002500;
     color: #eee;
-    font-family: Geneva, Tahoma, sans-serif;}
+    font-family: Geneva, Tahoma, sans-serif;
+    max-width: 75%;
+}
+    
 
 h1 {
     text-align: left;
@@ -68,6 +71,7 @@ div.caption {
 }
 div.polaroid {
     width: 60%;
+    height: 25%;
     background-color: #111;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -75,8 +79,7 @@ div.polaroid {
 }
 
 #friedrice {
-    width:25%;
-    height:50%;
+    height: 50%;
     background-color: #111;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -89,7 +92,6 @@ ul, ol {
     flex-wrap: wrap;
 }
 p {
-    width:1250px;
     justify-content: left;
     margin-top: 10px;
     line-height: 1.5;
@@ -135,15 +137,17 @@ a {
 
 
 #wrapper {
-    width: calc(100vw-200px);
+    width: calc(100vw - 200px);
     margin-left: 200px;
+    max-width: 1250px;
 }
 
 nav {
     position: fixed;
-    width: 200px;
+    width: 190px;
     text-align: center;
     background-color: #110e11;
+    line-height: 50px;
 }
 
 nav .active {
@@ -204,24 +208,5 @@ nav .active {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
-    width: 1250px;
 }
 
-div.modal {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-div.modal.active {
-    display: block;
-}
-div.modal > img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-    display: block;
-}
