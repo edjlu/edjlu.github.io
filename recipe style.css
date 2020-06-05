@@ -15,6 +15,10 @@
     }
 }
 
+#tvmusichome {
+    background-color: #4B1607;
+}
+
 body {
     background-color: #002500;
     color: #eee;
@@ -38,9 +42,12 @@ h3 {
     align-items: center;
 }
 
-#head {
-    color: #c64af7;
+#tvhead {
+    color: #F9BA77;
     align-items: center;
+}
+#head {
+    color:#C98BB9;
 }
 
 #subhead {
