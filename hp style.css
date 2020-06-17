@@ -50,6 +50,8 @@ a {
 
 section.gallery {
     display: flex;
+    max-width: 1200px;
+    max-height: 1352px;
     flex-wrap: wrap;
 }
 
@@ -89,7 +91,6 @@ nav .active {
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 }
