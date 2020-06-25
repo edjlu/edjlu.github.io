@@ -86,11 +86,7 @@ div.polaroid {
     margin-top: 10px;
 }
 
-ul, ol {
-    margin-left: 15px;
-    line-height: 1.5em;
-    flex-wrap: wrap;
-}
+
 p {
     justify-content: left;
     margin-top: 10px;
@@ -128,13 +124,22 @@ article {
 a {
     color: white;
     text-decoration: none;
+    display: block;
+    padding: 8px;
+    background-color: #111;
 }
 
 #current {
-    color: black;
+    color: white;
+    background-color: green;
     text-decoration: none;
 }
 
+ol {
+    margin-left: 15px;
+    line-height: 1.5em;
+    flex-wrap: wrap;
+}
 
 #wrapper {
     width: calc(100vw - 200px);
@@ -142,14 +147,36 @@ a {
     max-width: 1250px;
 }
 
-nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     position: fixed;
-    width: 190px;
+    top: 0;
+    width: 100%;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    background-color: #110e11;
-    line-height: 50px;
-}
-
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #4CAF50;
+  }
 nav .active {
     background-color: #eee;
     color: #111;
