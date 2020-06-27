@@ -1,0 +1,31 @@
+{% extends 'base.jinja2' %}
+
+{% block title %}Travels/Ramblings{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}travels.css">
+{% endblock head %}
+
+{% block body %}
+    <div class="header">
+        <h2 id="travelhead">Travels/Ramblings</h2>
+        <h2 id="subhead">Travel blogs and just random thoughts/ramblings.</h2>
+    </div>
+
+    <div class="flex-container">
+        <div><h1>Travels</h1>
+            <div class="line-dec"></div>
+            <ul>
+                <li>Utah (WIP)</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Ramblings (WIP)</h1>
+            <div class="line-dec"></div>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <h3>Click the sidebar to check out more content or return home.</h3>
+{% endblock body %}

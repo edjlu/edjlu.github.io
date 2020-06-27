@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Edmund Lu</title>
-        <link rel="stylesheet" href="base.css">
-		
+{% extends 'base.jinja2' %}
+
+{% block title %}Edmund Lu{% endblock title %}
+{% block head %}
     <link rel="stylesheet" href="index.css">
+{% endblock head %}
 
-    </head>
-    <body>
-        
-        
+{% block nav %}{% endblock nav %}
 
-        <div id="wrapper">
-            
+{% block body %}
     <img src="images/pch north.jpg" class="hero">
     <h1>
     Edmund's Sweet-Ass Homepage
@@ -55,8 +50,38 @@
     </article>
     </section>
     <br><br>
-    
+    {#
+    <h2>Gallery</h2>
+    <div class="line-dec"></div>
+    <h3>A collection of photos I think are pretty sweet.</h3>
 
+    <section class="gallery">
+    <div class="container">
+        <img src="images/brick.jpg" alt="Hikes" class="image">
+        <div class="middle">
+            <div class="text"> Hiking </div>
         </div>
-    </body>
-</html>
+    </div>
+    <div class="container">
+        <img src="images/pch1.jpg" alt="Travelling" class="image">
+        <div class="middle">
+            <div class="text"> Travelling </div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="images/bike2.jpg" alt="Rusty the Motorcycle" class ="image">
+        <div class="middle">
+            <div class="text" > Rusty the Motorcycle </div>
+        </div>
+    </div>
+    <div class="container">
+         <img src="images/becksprime01.jpg" alt="Hiking" class="image">
+         <div class="middle">
+             <div class="text"> Food </div>
+         </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    #}
+{% endblock body%}

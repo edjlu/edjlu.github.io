@@ -1,0 +1,40 @@
+{% extends 'base.jinja2' %}
+
+{% block title %}Video Game Reviews{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}game_reviews.css">
+{% endblock head %}
+
+{% block body %}
+    <div class="header">
+        <h2 id="head">Video Game Reviews</h2>
+        <h2 id="subhead">DISCLAIMER: I am not a professional and honestly am actually kind of an idiot.
+        Take everything you read with a grain of salt.
+        </h2>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <h1>PS4</h1>
+            <div class="line-dec"></div>
+        <ul>
+            <li><a href="game_reviews/rdr2.html">Red Dead Redemption 2</li></a>
+            <li><a href="game_reviews/god_of_war.html">God of War</li></a>
+            <li><a href="game_reviews/horizon.html">Horizon: Zero Dawn</li></a>
+            <li><a href="game_reviews/uncharted4.html">Uncharted 4: A Thief's End</li></a>
+            <li><a href="game_reviews/hollowknight.html">Hollow Knight</li></a>
+            <li><a href="game_reviews/doom.html">DOOM (2016)</li></a>
+        </ul>
+        </div>
+        <div>
+            <h1>PC/Other Consoles</h1>
+            <div class="line-dec"></div>
+            <ul>
+                <li><a href="game_reviews/sc2.html">Starcraft II</li></a>
+                <li><a href="game_reviews/botw.html">The Legend of Zelda: Breath of the Wild</li></a>
+            </ul>
+        </div>
+    </div>
+    <h3>Click the sidebar to check out more content or return home.</h3>
+{% endblock body%}

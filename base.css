@@ -5,13 +5,8 @@
 }
 
 body {
-    background-color: #43035F;
     color: #eee;
     font-family: Geneva, Tahoma, sans-serif;
-}
-
-#tvmusichome {
-    background-color: #4B1607;
 }
 
 ul {
@@ -57,121 +52,12 @@ div.polaroid {
     margin-top: 25px;
 }
 
-div.botwpolaroid {
-    width: 98%;
-    background-color:#536f50;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.sc2polaroid {
-    width: 98%;
-    background-color: #005c05;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-div.hzdpolaroid {
-    width: 98%;
-    background-color: #3639eb;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.uc4polaroid{
-    width: 98%;
-    background-color: #1a1816;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.doompolaroid{
-    width: 98%;
-    background-color: #520003;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.hkpolaroid{
-    width: 98%;
-    background-color: #0c0042;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.rdr2polaroid{
-    width: 98%;
-    background-color:  #ff3333;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-div.botwpolaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color:#536f50;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
-div.hkpolaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color: #0c0042;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
-div.uc4polaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color:  #1a1816;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
-div.hzdpolaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color:  #3639eb;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
-div.rdr2polaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color:  #ff3333;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
-div.doompolaroidsmall{
-    width: 800px;
-    height: 493px;
-    background-color:  #520003;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
-}
-
 div.caption {
     text-align: center;
     padding: 10px 20px;
 }
 
 /* END */
-
-.hero {
-    display: block;
-    height: 650px;
-    width: 1319px;
-}
 
 h1 {
     text-align: left;
@@ -222,6 +108,8 @@ nav {
 
 nav .active {
     background-color: #eee;
+}
+nav .active > a {
     color: #111;
 }
 
@@ -250,7 +138,6 @@ nav .active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
 }
 
 .container:hover .image {
@@ -306,4 +193,35 @@ p {
     justify-content: left;
     margin-top: 10px;
     line-height: 1.5;
+}
+
+.header {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head {
+    color: #10a4e9;
+    align-items: center;
+}
+
+#subhead {
+    color: #ccccb3;
+    width: 90%;
+    justify-content: wrap;
+}
+
+article {
+    font-size: 44;
+    font-weight: 200;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+}
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 1250px;
 }

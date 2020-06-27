@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock title %}</title>
+        <link rel="stylesheet" href="{{ prefix }}base.css">
+		{% block head %}{% endblock head %}
+    </head>
+    <body>
+        {% macro nav_link(text, path) -%}
+            <div {% if path == active_nav %}class="active"{% endif %}>
+                <a href="{{ prefix }}{{path}}.html">{{text}}</a>
+            </div>
+        {%- endmacro %}
+        {% block nav %}
+            <nav>
+                {{ nav_link('Homepage', 'index') }}
+                {{ nav_link('Video Game Reviews', 'game_reviews') }}
+                {{ nav_link('TV, Movie, Music Reviews', 'tv_music_reviews') }}
+                {{ nav_link('Food', 'food') }}
+                {{ nav_link('Travels/Ramblings', 'travels') }}
+            </nav>
+        {% endblock nav %}
+
+        <div id="wrapper">
+            {% block body %}{% endblock body %}
+        </div>
+    </body>
+</html>

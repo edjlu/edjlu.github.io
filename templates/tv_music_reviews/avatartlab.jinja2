@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Avatar: The Last Airbender</title>
-        <link rel="stylesheet" href="../base.css">
-		
-	<link rel="stylesheet" href="../review.css">
-	<link rel="stylesheet" href="../tv_music_reviews.css">
+{% extends 'base.jinja2' %}
 
-    </head>
-    <body>
-        
-        
-            <nav>
-                <div >
-                <a href="../index.html">Homepage</a>
-            </div>
-                <div >
-                <a href="../game_reviews.html">Video Game Reviews</a>
-            </div>
-                <div class="active">
-                <a href="../tv_music_reviews.html">TV, Movie, Music Reviews</a>
-            </div>
-                <div >
-                <a href="../food.html">Food</a>
-            </div>
-                <div >
-                <a href="../travels.html">Travels/Ramblings</a>
-            </div>
-            </nav>
-        
+{% block title %}Avatar: The Last Airbender{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}tv_music_reviews.css">
+{% endblock head %}
 
-        <div id="wrapper">
-            
+{% block body %}
     <img src="../images/atlabcover.jpg" class="hero" alt="cover">
     <div class= "infobox">
         <div class="info">
@@ -99,7 +74,4 @@
     </html>
 
     <h2>Click the sidebar to check out more content or return home.</h2>
-
-        </div>
-    </body>
-</html>
+{% endblock body %}
