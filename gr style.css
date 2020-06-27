@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+#travel {
+    background-color: #20525A;
+    color: #eee;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: #43035F;
     color: #eee;
@@ -36,6 +42,11 @@ h3 {
 
 #head {
     color: #10a4e9;
+    align-items: center;
+}
+
+#travelhead {
+    color: #47FFE3;
     align-items: center;
 }
 
