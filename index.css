@@ -24,27 +24,35 @@ h3 {
     margin-top: 30px;
 }
 
-article {
-    font-size: 44;
+section.features article {
     font-weight: 200;
     width: 300px;
     height: 169px;
-    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #fff;
     background-color: purple;
+    background-size: cover;
+    transition: box-shadow 0.5s ease;
+}
+section.features article:hover {
+    box-shadow: inset 0 0 169px 0 rgba(200, 0, 255, 0.7);
+}
+
+section.features article > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+section.features article:hover > a {
+    opacity: 1;
 }
 
 a {
     color: white;
-    text-decoration: none;
-}
-
-#sizing {
-    height: 169px;
-    width: 300px;
-}
-
-#current {
-    color: black;
     text-decoration: none;
 }
 
@@ -59,18 +67,6 @@ section.features {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-}
-
-nav {
-    position: fixed;
-    width:200px;
-    text-align: center;
-    background-color: #55e;
-}
-
-nav .active {
-    background-color: #eee;
-    color: #111;
 }
 
 .container {
