@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Horizon: Zero Dawn</title>
-        <link rel="stylesheet" href="../base.css">
-		
-	<link rel="stylesheet" href="../review.css">
-	<link rel="stylesheet" href="../game_reviews.css">
+{% extends 'base.jinja2' %}
 
-    </head>
-    <body>
-        
-        
-            <nav>
-                <div >
-                <a href="../index.html">Homepage</a>
-            </div>
-                <div class="active">
-                <a href="../game_reviews.html">Video Game Reviews</a>
-            </div>
-                <div >
-                <a href="../tv_music_reviews.html">TV, Movie, Music Reviews</a>
-            </div>
-                <div >
-                <a href="../food.html">Food</a>
-            </div>
-                <div >
-                <a href="../travels.html">Travels/Ramblings</a>
-            </div>
-            </nav>
-        
+{% block title %}Horizon: Zero Dawn{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}game_reviews.css">
+{% endblock head %}
 
-        <div id="wrapper">
-            
+{% block body %}
     
 
 <img src="../images/horizon.jpg" class="hero" alt="cover">
@@ -90,27 +65,27 @@ The real highlight, however, is its huge variety of enemies. From the lowly Graz
 discover and learn more about each of your foes is truly what makes the game so fun. 
 I had some real palm sweaty, mom spaghetti moments -- when your plan goes to shit, and you end up on the run, nothing gets your heart pounding like when the machines start hunting <i>you.</i>
 Each encounter feels organic, and rather than hold your hand and direct you through on-screen prompts or tutorials, the game kind of just lets you intuitively figure things out on your own.
-As I played I felt like I was getting better ñ not because Aloy leveled up and became OP, but because I understood the game more and 
-learned how to use its mechanics to my advantage (using the Focus to highlight weak points, learning the enemiesí attack patterns, etc). </p>
+As I played I felt like I was getting better ‚Äì not because Aloy leveled up and became OP, but because I understood the game more and 
+learned how to use its mechanics to my advantage (using the Focus to highlight weak points, learning the enemies‚Äô attack patterns, etc). </p>
 <div class="hzdpolaroid">
     <img src="../images/hzd_fite.jpg" alt="Fight" style ="width:100%">
     <div class="caption">Just another day at the office.</div>
 </div>
 <p>This feedback loop of "get my ass handed to me > experiment and figure out what works > become stronger/better"
 feels rare these days, and kept me hooked on Horizon long enough for the story to actually get good.
-In my opinion Horizon nailed the difficulty curve, no easy feat ñ I played on Hard at first and switched to Very Hard soon after the tutorial. 
-There was never a point in my playthrough where I encountered something that made me think ìThis is impossible, I have to go back and grind/level up to beat this.î
-Yet at the same time, I never once thought to myself ìThis is a cakewalk, I could do it with my eyes closed.î
-There should be something for everyone here ñ with 6 difficulty options that you can change at any time, itís easy to tailor your experience.
+In my opinion Horizon nailed the difficulty curve, no easy feat ‚Äì I played on Hard at first and switched to Very Hard soon after the tutorial. 
+There was never a point in my playthrough where I encountered something that made me think ‚ÄúThis is impossible, I have to go back and grind/level up to beat this.‚Äù
+Yet at the same time, I never once thought to myself ‚ÄúThis is a cakewalk, I could do it with my eyes closed.‚Äù
+There should be something for everyone here ‚Äì with 6 difficulty options that you can change at any time, it‚Äôs easy to tailor your experience.
 </p>
-<p>In similar vein, Iíd like to shout out the fact that <b>you can completely customize your HUD</b> ñ every single aspect of it can be toggled on/off, or to only appear when necessary.
-I still donít know why EVERYONE doesnít include this in their games. There is literally no losing here, because everyone can get what they want. But hey, what do I knowÖ 
+<p>In similar vein, I‚Äôd like to shout out the fact that <b>you can completely customize your HUD</b> ‚Äì every single aspect of it can be toggled on/off, or to only appear when necessary.
+I still don‚Äôt know why EVERYONE doesn‚Äôt include this in their games. There is literally no losing here, because everyone can get what they want. But hey, what do I know‚Ä¶ 
 </p> 
 
 <h1>A Few Minor Hiccups</h1>
 <p>Despite the addicting combat and a plot that actually ends up being pretty well thought-out,
 HZD is let down by some AWFUL motion-capture (or lack thereof).
-Some of the cutscenes straight up look like theyíre from the wrong side of 2010.
+Some of the cutscenes straight up look like they‚Äôre from the wrong side of 2010.
 While the plot overall is neat, almost everyone else you encounter
 is largely forgettable, due to a combination of bad writing, meh voice acting and the aforementioned 
 facial animations that make it impossible to take them seriously.</p>
@@ -126,7 +101,7 @@ the only real other content is Hunting Grounds (challenge mode/time trial), Caul
 and Bandit Camps (human enemies, who are about 1000% less interesting to fight than the robots).
 If this game had been just 15 linear hours of the main campaign, I honestly think it might've been a better experience overall.
 </p>
-<p>Also the climbing is complete ass, but luckily you donít have to do too much of it.</p>
+<p>Also the climbing is complete ass, but luckily you don‚Äôt have to do too much of it.</p>
 <h1> The Frozen Wilds </h1>
 <p>It's worth noting that there's a DLC expansion available called The Frozen Wilds. As the name implies, the expansion
 takes place in a beautiful new region that happens to be cold as balls. I got TFW included with my purchase since I
@@ -146,7 +121,4 @@ but if you can slide under a Thunderjaw while shooting it with a shotgun and not
 have a pulse.
 </P>
 <br>
-
-        </div>
-    </body>
-</html>
+{% endblock body %}

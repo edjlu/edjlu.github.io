@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Red Dead Redemption 2</title>
-        <link rel="stylesheet" href="../base.css">
-		
-	<link rel="stylesheet" href="../review.css">
-	<link rel="stylesheet" href="../game_reviews.css">
+{% extends 'base.jinja2' %}
 
-    </head>
-    <body>
-        
-        
-            <nav>
-                <div >
-                <a href="../index.html">Homepage</a>
-            </div>
-                <div class="active">
-                <a href="../game_reviews.html">Video Game Reviews</a>
-            </div>
-                <div >
-                <a href="../tv_music_reviews.html">TV, Movie, Music Reviews</a>
-            </div>
-                <div >
-                <a href="../food.html">Food</a>
-            </div>
-                <div >
-                <a href="../travels.html">Travels/Ramblings</a>
-            </div>
-            </nav>
-        
+{% block title %}Red Dead Redemption 2{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}game_reviews.css">
+{% endblock head %}
 
-        <div id="wrapper">
-            
+{% block body %}
     
 
 <img src="../images/rdr2cover.png" class="hero" alt="cover">
@@ -135,7 +110,4 @@ Also - compared to the first game, the aiming somehow feels more...sluggish. It 
 <p>I guess it's a testament to how good it is that, even despite my laundry list of complaints, Red Dead 2 is still one of my favorite video games, and one that I consistently come back to free roam in. If you like any of Rockstar's open world games, you'll probably like this one too - at the end of the day, it's pretty much GTA with a really, <i>really</i> nice coat of paint. If you're into Westerns at all, I also recommend giving this one a go just for it's story. It takes a while to get through, and is a long game in general, but I believe most people will enjoy it if they give it a chance.
 </p>
 <br>
-
-        </div>
-    </body>
-</html>
+{% endblock body %}

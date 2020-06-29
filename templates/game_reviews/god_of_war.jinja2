@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>God of War</title>
-        <link rel="stylesheet" href="../base.css">
-		
-	<link rel="stylesheet" href="../review.css">
-	<link rel="stylesheet" href="../game_reviews.css">
+{% extends 'base.jinja2' %}
 
-    </head>
-    <body>
-        
-        
-            <nav>
-                <div >
-                <a href="../index.html">Homepage</a>
-            </div>
-                <div class="active">
-                <a href="../game_reviews.html">Video Game Reviews</a>
-            </div>
-                <div >
-                <a href="../tv_music_reviews.html">TV, Movie, Music Reviews</a>
-            </div>
-                <div >
-                <a href="../food.html">Food</a>
-            </div>
-                <div >
-                <a href="../travels.html">Travels/Ramblings</a>
-            </div>
-            </nav>
-        
+{% block title %}God of War{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}game_reviews.css">
+{% endblock head %}
 
-        <div id="wrapper">
-            
+{% block body %}
     
 
 <img src="../images/god_of_war.png" class="hero" alt="cover">
@@ -173,7 +148,4 @@ Despite the repetitive bosses, overall the game is so fun that I can recommend i
 literally just off the first hour alone.
 <br>12 thumbs up out of 8 BOYs.</p>
 <br>
-
-        </div>
-    </body>
-</html>
+{% endblock body %}

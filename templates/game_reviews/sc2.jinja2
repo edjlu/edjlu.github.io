@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Starcraft II</title>
-        <link rel="stylesheet" href="../base.css">
-		
-	<link rel="stylesheet" href="../review.css">
-	<link rel="stylesheet" href="../game_reviews.css">
+{% extends 'base.jinja2' %}
 
-    </head>
-    <body>
-        
-        
-            <nav>
-                <div >
-                <a href="../index.html">Homepage</a>
-            </div>
-                <div class="active">
-                <a href="../game_reviews.html">Video Game Reviews</a>
-            </div>
-                <div >
-                <a href="../tv_music_reviews.html">TV, Movie, Music Reviews</a>
-            </div>
-                <div >
-                <a href="../food.html">Food</a>
-            </div>
-                <div >
-                <a href="../travels.html">Travels/Ramblings</a>
-            </div>
-            </nav>
-        
+{% block title %}Starcraft II{% endblock title %}
+{% block head %}
+	<link rel="stylesheet" href="{{ prefix }}review.css">
+	<link rel="stylesheet" href="{{ prefix }}game_reviews.css">
+{% endblock head %}
 
-        <div id="wrapper">
-            
+{% block body %}
     
 
 <img src="../images/sc2cover.jpg" class="hero" alt="cover">
@@ -108,7 +83,4 @@
     <br>22 twinkletoes out of 10 baby seals.
 </p>
 <br>
-
-        </div>
-    </body>
-</html>
+{% endblock body %}
