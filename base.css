@@ -37,13 +37,6 @@ iframe {
     padding: 10px 30px 15px 15px;
 }
 
-#intextleft {
-    float: left;
-    width: 250px;
-    height: 250px;
-    padding: 10px 30px 0 10px;
-}
-
 div.polaroid {
     width: 98%;
     background-color: #801404;
@@ -75,7 +68,6 @@ h3 {
     margin-top: 30px;
 }
 
-
 a {
     color: white;
     text-decoration: none;
@@ -93,14 +85,14 @@ section {
 }
 
 #wrapper {
-    width: calc(100vw - 200px);
-    margin-left: 200px;
-    max-width: 1250px;
+    width: calc(100vw - 220px);
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 nav {
     position: fixed;
-    width: 190px;
+    width: 200px;
     text-align: center;
     background-color: #110e11;
     line-height: 50px;
@@ -164,7 +156,6 @@ nav .active > a {
 .infobox {
     display: flex;
     justify-content: space-evenly;
-    width: 1319px;
     background-color: gray;
 }
 
@@ -189,7 +180,6 @@ nav .active > a {
 }
 
 p {
-    width:1250px;
     justify-content: left;
     margin-top: 10px;
     line-height: 1.5;
@@ -219,9 +209,16 @@ article {
     height: 200px;
     border: 1px solid black;
 }
+
 .flex-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
-    width: 1250px;
+    width: 100%;
+}
+.flex-container > div {
+    width: 40%;
+}
+.flex-container > div:first-child {
+    margin-right: 20%;
 }

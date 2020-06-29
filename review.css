@@ -1,7 +1,6 @@
 .hero {
     display: block;
-    height: 650px;
-    width: 1319px;
+    width: 100%;
 }
 
 h1 {

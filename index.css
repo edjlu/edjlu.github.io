@@ -61,11 +61,6 @@ section.features {
     flex-wrap: wrap;
 }
 
-#wrapper {
-    width: calc(100vw - 200px);
-    margin-left: 200px;
-}
-
 nav {
     position: fixed;
     width:200px;
@@ -84,7 +79,7 @@ nav .active {
 }
 
 /* PHONE OPTIMIZATION */
-
+/*
 @media only screen and (max-width: 650px) {
     nav {
         display: none;
@@ -94,24 +89,4 @@ nav .active {
         width: 100vw;
     }
 }
-
-div.modal {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-div.modal.active {
-    display: block;
-}
-div.modal > img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
-
+*/
