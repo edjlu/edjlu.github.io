@@ -115,17 +115,6 @@ nav .active > a {
     margin: 20px 0;
 }
 
-.infobox {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: gray;
-}
-
-.infobox > .info {
-    width: 30%;
-    padding: 0 20px;
-}
-
 .head {
     margin-block-start: 0.50em;
     margin-block-end: 0.50em;
