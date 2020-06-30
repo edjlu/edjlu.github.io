@@ -6,6 +6,12 @@ iframe {
     width: 31%;
     margin: 0px 5px 0px 0px;
 }
+
+#sc2 {
+    width: 80%;
+    margin: 5px 0px 0px 0px;
+}
+
 div.botwpolaroid {
     width: 98%;
     background-color:#536f50;
