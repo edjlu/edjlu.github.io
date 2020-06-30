@@ -1,7 +1,11 @@
 body {
-    background-color: #43035F;
+    background-color: #270D37;
 }
 
+iframe {
+    width: 31%;
+    margin: 0px 5px 0px 0px;
+}
 div.botwpolaroid {
     width: 98%;
     background-color:#536f50;
@@ -58,26 +62,32 @@ div.rdr2polaroid{
 }
 
 div.botwpolaroidsmall{
-    width: 800px;
-    height: 493px;
+    width: 100%;
     background-color:#536f50;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+div.botwpolaroidsmall > img{
+    width: 100%;
 }
 
 div.hkpolaroidsmall{
-    width: 800px;
-    height: 493px;
+    width: 100%;
     background-color: #0c0042;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+div.hkpolaroidsmall > img{
+    width:100%;
 }
 
 div.uc4polaroidsmall{
     width: 100%;
     background-color:  #1a1816;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0;
+    margin: 25px 0px 25px 0px;
 }
 
 div.uc4polaroidsmall > img {
@@ -85,25 +95,34 @@ div.uc4polaroidsmall > img {
 }
 
 div.hzdpolaroidsmall{
-    width: 800px;
-    height: 493px;
+    width: 100%;
     background-color:  #3639eb;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+div.hzdpolaroidsmall > img{
+    width: 100%;
 }
 
 div.rdr2polaroidsmall{
-    width: 800px;
-    height: 493px;
+    width: 100%;
     background-color:  #ff3333;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+div.rdr2polaroidsmall > img {
+    width: 100%;
 }
 
 div.doompolaroidsmall{
-    width: 800px;
-    height: 493px;
+    width: 100%;
     background-color:  #520003;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 25px 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+div.doompolardoismall > img{
+    width: 100%;
 }

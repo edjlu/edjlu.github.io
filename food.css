@@ -2,6 +2,10 @@ body {
     background-color: #002500;
 }
 
+#foodhead {
+    color: #66FCF1;
+}
+
 div.polaroid {
     width: 60%;
     height: 25%;

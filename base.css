@@ -13,7 +13,7 @@ ul {
     margin: 5px 0 0 15px;
     line-height: 2.5;
 }
-/* PHONE OPTIMIZING */
+/* PHONE OPTIMIZING 
 
 @media only screen and (max-width: 650px) {
     nav {
@@ -24,7 +24,7 @@ ul {
         width: 100vw;
     }
 }
-
+*/
 /* PICTURES */ 
 
 iframe {
@@ -157,8 +157,11 @@ p {
 
 #subhead {
     color: #ccccb3;
-    width: 90%;
-    justify-content: wrap;
+    width: 100%;
+}
+
+#travelhead {
+    color: #3fdf31;
 }
 
 article {
