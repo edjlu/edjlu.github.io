@@ -30,7 +30,6 @@ section.features article {
     height: 169px;
     margin: 0 10px 10px 0;
     border: 1px solid #fff;
-    background-color: purple;
     background-size: cover;
     transition: box-shadow 0.5s ease;
 }
@@ -49,6 +48,15 @@ section.features article > a {
 }
 section.features article:hover > a {
     opacity: 1;
+}
+
+@media (hover: none) {
+    section.features article {
+        box-shadow: inset 0 0 169px 0 rgba(200, 0, 255, 0.5);
+    }
+    section.features article > a {
+        opacity: 1;
+    }
 }
 
 a {
