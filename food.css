@@ -6,23 +6,24 @@ body {
     color: #66FCF1;
 }
 
+/* fried rice page css */
 div.polaroid {
     width: 60%;
-    height: 25%;
     background-color: #111;
-    margin-top: 10px;
+    margin: 25px auto 25px auto;
 }
+
 
 div.polaroid > img {
     width: 100%;
 }
     
-#friedrice {
-    height: 50%;
+#fryrice {
+    display: block;
+    margin: 25px auto 25px auto;
+    width: 50%;
     background-color: #111;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-top: 10px;
 }
 
 .ingredients {
@@ -32,3 +33,48 @@ div.polaroid > img {
 .ingredients > div {
     width: 250px;
 }
+
+/* HTX food page */
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    border: 1px solid white;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
